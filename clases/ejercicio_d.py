@@ -7,6 +7,8 @@ class Logger:
         if (x==1):
             f.write('--Start log--'+'\n')
         
+        f.write(str(mensaje))
+        f.write('\n')
         
         if(x==5):
             f.write('--End log:--')
