@@ -5,9 +5,9 @@ El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub]()
 
 Autores:
 
-[Miguel](https://github.com/migueliiin)
-
 [José Zazo](https://github.com/jzazooro)
+
+[Miguel](https://github.com/migueliiin)
 
 ### Ejercicio a. Palindromo metodo de clase
 
