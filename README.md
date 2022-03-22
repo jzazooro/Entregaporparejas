@@ -12,7 +12,7 @@ Autores:
 ### Ejercicio a. Palindromo metodo de clase
 
 El UML de este ejercicio es el siguiente:
-[ejra]()
+[ejra](https://github.com/jzazooro/Entregaporparejas/blob/main/UML/ejercicioaUML.drawio.png)
 
 El código de este ejercicio es el siguiente:
 
