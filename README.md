@@ -17,7 +17,14 @@ El UML de este ejercicio es el siguiente:
 El código de este ejercicio es el siguiente:
 
 ```
-
+class palindromo:
+    def palabrapalindroma(palabra):
+        if palabra == palabra[: : -1]:
+            return True
+        elif palabra != palabra[: : -1]:
+            return False
+palabra= input("Por favor escriba una palabra: ")
+print(palindromo.palabrapalindroma(palabra))
 ```
 
 ### Ejercicio b. Plindromo metodo de instancia
