@@ -2,9 +2,9 @@
 
 ### Ejercicio c. Puzle
     
-    Código:
+Código:
     
-    ```
+``` 
         class A: 
         def z(self): 
             return self 
@@ -22,5 +22,5 @@
         print(a().y((a,))) 
         print(A.y(aa, (a,z))) 
         print(aa.y((z,1,'z'))) 
-    ```
-    Explicación:
+ ```
+ Explición:
