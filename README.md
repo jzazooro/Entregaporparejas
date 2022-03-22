@@ -139,5 +139,7 @@ Código:
 ```
 
 El UML que representa a este ejercicio es el siguiente:
+
+
 ![ejercicio_d](https://user-images.githubusercontent.com/91721552/159494030-9a2ac3fd-f070-4ce6-9dec-da501e2635ca.png)
 
