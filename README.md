@@ -36,3 +36,26 @@ Explicación:
 (A.y(aa, (a,z))) = la len() pasa a 2
 
 (aa.y((z,1,'z'))) = la len() pasa a 3
+
+### Ejercicio d. Puzle
+    
+Código:
+    
+``` 
+    test = Test() 
+    for i in range(1, 6): 
+    if i == 1: 
+        test.llamada("Primera llamada") 
+    else: 
+        test.llamada("{}ª llamada".format(string)) 
+    $> cat log.txt 
+    --Start log-- 
+    Primera llamada 
+    2a llamada 
+    3a llamada 
+    4a llamada 
+    5a llamada 
+    --End log: 5 log(s)-- 
+```
+
+El UML que representa a este ejercicio es el siguiente:
