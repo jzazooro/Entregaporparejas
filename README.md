@@ -27,7 +27,7 @@ Explicación:
 
 (y(a)) = esta devolviendo el valor a, que es un elemento de la clase A porque z solo devuelve el self
 
-(aa is a()) = retorna falso, porque son dos clases de A pero con atribtos diferentes
+(aa is a()) = devuelve falso, porque son dos clases de A pero con atribtos diferentes
 
 (z(())) = es un elemento de una clase, por lo que su len() f sera 0
 
