@@ -1,6 +1,7 @@
 from clases.ejercicio_c import *
 from clases.ejercicio_d import *
-
+from clases.palindromometododeclase import *
+from clases.palindromometododeinstancia import *
 
 def main():
     acabar=False
@@ -8,15 +9,18 @@ def main():
         seguir=str(input('Quieres seguir viendo ejercicios(S/N)?:'))    
         if(seguir=='s' or seguir=='S'):
             cual=str(input('Que ejercicio quieres ver (a,b,c,d)?:'))
+
             if(cual=='a' or cual=='A'):
                 print('Ejercicio A:\n')
+                palabra= input("Por favor escriba una palabra: ")
+                print(palindromo.palabrapalindroma(palabra))
 
             elif(cual=='b' or cual=='B'):
                 print('Ejercicio B:\n')
 
+
             elif(cual=='c' or cual=='C'):
                 print('Ejercicio C:\n')
-        
                 a = A 
                 y = a.z 
                 print(y(a)) 
