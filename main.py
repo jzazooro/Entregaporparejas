@@ -1,4 +1,5 @@
 from clases.ejercicio_c import *
+from clases.ejercicio_d import *
 
 
 def main():
@@ -34,7 +35,7 @@ def main():
                     if i == 1: 
                         test.llamada("Primera llamada") 
                     else: 
-                        test.llamada("{}ª llamada".format(string))
+                        test.llamada("{}ª llamada".format(str(i)))
 
             else:
                 print('Eso no es un 4, un 5 o un 6.')
