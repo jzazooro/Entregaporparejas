@@ -1,5 +1,46 @@
 # Entregaporparejas
 
+
+El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub](https://github.com/jzazooro/Entregaporparejas.git)
+
+Autores:
+
+[José Zazo](https://github.com/jzazooro)
+
+[Miguel](https://github.com/migueliiin)
+
+### Ejercicio a. Palindromo metodo de clase
+
+El UML de este ejercicio es el siguiente:
+
+![ejercicioaUML drawio](https://user-images.githubusercontent.com/91785177/159487858-e9b4ff43-4fda-454d-aedd-e91068a74112.png)
+
+El código de este ejercicio es el siguiente:
+
+```
+class palindromo:
+    def palabrapalindroma(palabra):
+        if palabra == palabra[: : -1]:
+            return True
+        elif palabra != palabra[: : -1]:
+            return False
+palabra= input("Por favor escriba una palabra: ")
+print(palindromo.palabrapalindroma(palabra))
+```
+
+### Ejercicio b. Plindromo metodo de instancia
+
+
+El UML de este ejercicio es el siguiente:
+[ejrb]()
+
+El código de este ejercicio es el siguiente:
+
+```
+
+```
+
+
 ### Ejercicio c. Puzle
     
 Código:
@@ -37,6 +78,7 @@ Explicación:
 
 (aa.y((z,1,'z'))) = la len() pasa a 3
 
+<<<<<<< HEAD
 ### Ejercicio d. Puzle
     
 Código:
@@ -59,3 +101,5 @@ Código:
 ```
 
 El UML que representa a este ejercicio es el siguiente:
+=======
+>>>>>>> e36819d82a1b71a137b751294ae923bae6e54aa1
