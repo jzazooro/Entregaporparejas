@@ -2,9 +2,9 @@
 
 ### Ejercicio c. Puzle
     
-    Código:
+Código:
     
-    ```
+``` 
         class A: 
         def z(self): 
             return self 
@@ -22,6 +22,7 @@
         print(a().y((a,))) 
         print(A.y(aa, (a,z))) 
         print(aa.y((z,1,'z'))) 
+<<<<<<< HEAD
     ```
 Explicación:
 
@@ -36,3 +37,7 @@ print(a().y((a,))) = la longitud es 1
 print(A.y(aa, (a,z))) = la longitud es 2
 
 print(aa.y((z,1,'z'))) = la longitud es 3
+=======
+ ```
+ Explición:
+>>>>>>> fd153e7f1df62b3e81cbd51ccee51a4a4769ede5
