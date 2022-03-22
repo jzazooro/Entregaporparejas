@@ -79,28 +79,38 @@ Explicación:
 
 (aa.y((z,1,'z'))) = la len() pasa a 3
 
-<<<<<<< HEAD
 ### Ejercicio d. Puzle
     
 Código:
     
 ``` 
+    class Logger:
+    def log(self,mensaje,x):
+        f= open('cat log.txt','a+')
+        if (x==1):
+            f.write('--Start log--'+'\n')
+        
+        f.write(str(mensaje))
+        f.write('\n')
+        
+        if(x==5):
+            f.write('--End log:--')
+            f.write(str(x))
+            f.write('log(s)--')
+            f.close
+
+    class Test:
+        def llamada(self,mensaje,x):
+            Logger.log(mensaje,x)
+
     test = Test() 
     for i in range(1, 6): 
     if i == 1: 
         test.llamada("Primera llamada") 
     else: 
         test.llamada("{}ª llamada".format(string)) 
-    $> cat log.txt 
-    --Start log-- 
-    Primera llamada 
-    2a llamada 
-    3a llamada 
-    4a llamada 
-    5a llamada 
-    --End log: 5 log(s)-- 
 ```
 
 El UML que representa a este ejercicio es el siguiente:
-=======
->>>>>>> e36819d82a1b71a137b751294ae923bae6e54aa1
+![ejercicio_d](https://user-images.githubusercontent.com/91721552/159494030-9a2ac3fd-f070-4ce6-9dec-da501e2635ca.png)
+
