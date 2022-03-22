@@ -1,5 +1,37 @@
 # Entregaporparejas
 
+
+El enlace al repositorio de GitHub de este proyecto es el siguiente: [GitHub]()
+
+Autores:
+
+[Miguel](https://github.com/migueliiin)
+[José Zazo](https://github.com/jzazooro)
+
+### Ejercicio a. Palindromo metodo de clase
+
+El UML de este ejercicio es el siguiente:
+[ejra]()
+
+El código de este ejercicio es el siguiente:
+
+```
+
+```
+
+### Ejercicio b. Plindromo metodo de instancia
+
+
+El UML de este ejercicio es el siguiente:
+[ejrb]()
+
+El código de este ejercicio es el siguiente:
+
+```
+
+```
+
+
 ### Ejercicio c. Puzle
     
 Código:
@@ -36,3 +68,4 @@ Explicación:
 (A.y(aa, (a,z))) = la len() pasa a 2
 
 (aa.y((z,1,'z'))) = la len() pasa a 3
+
