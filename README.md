@@ -12,24 +12,60 @@ Autores:
 ### Ejercicio a. Palindromo metodo de clase
 
 El UML de este ejercicio es el siguiente:
-[ejra](https://github.com/jzazooro/Entregaporparejas/blob/main/UML/ejercicioaUML.drawio.png)
+
+![ejercicioaUML drawio](https://user-images.githubusercontent.com/91785177/159487858-e9b4ff43-4fda-454d-aedd-e91068a74112.png)
 
 El código de este ejercicio es el siguiente:
 
 ```
-
+class palindromo:
+    def palabrapalindroma(palabra):
+        if palabra == palabra[: : -1]:
+            return True
+        elif palabra != palabra[: : -1]:
+            return False
+palabra= input("Por favor escriba una palabra: ")
+print(palindromo.palabrapalindroma(palabra))
 ```
 
-### Ejercicio b. Plindromo metodo de instancia
+### Ejercicio b. Palindromo metodo de instancia
 
 
 El UML de este ejercicio es el siguiente:
-[ejrb]()
+
+
 
 El código de este ejercicio es el siguiente:
 
 ```
+class palindromo:
+    global palabra
+    palabra=input("¿Que atributo o palabra desea añadir?: ")
+    global lista
+    lista=[]
 
+    def palabrapalindroma(palabra):
+
+        if palabra==palabra[: : -1]:
+            return True
+
+        elif palabra!=palabra[: : -1]:
+            return False
+
+    def test(palabra):
+        lista.append(palabra)
+
+        if palabra==palabra[: : -1]:
+            return True
+
+        elif palabra!=palabra[: : -1]:
+            return False
+
+        if len(lista)>1:
+            destruir=lista.pop()
+            destruir=destruir.upper()
+
+            print(destruir)
 ```
 
 
@@ -69,4 +105,41 @@ Explicación:
 (A.y(aa, (a,z))) = la len() pasa a 2
 
 (aa.y((z,1,'z'))) = la len() pasa a 3
+
+### Ejercicio d. Puzle
+    
+Código:
+    
+``` 
+    class Logger:
+    def log(self,mensaje,x):
+        f= open('cat log.txt','a+')
+        if (x==1):
+            f.write('--Start log--'+'\n')
+        
+        f.write(str(mensaje))
+        f.write('\n')
+        
+        if(x==5):
+            f.write('--End log:--')
+            f.write(str(x))
+            f.write('log(s)--')
+            f.close
+
+    class Test:
+        def llamada(self,mensaje,x):
+            Logger.log(mensaje,x)
+
+    test = Test() 
+    for i in range(1, 6): 
+    if i == 1: 
+        test.llamada("Primera llamada") 
+    else: 
+        test.llamada("{}ª llamada".format(string)) 
+```
+
+El UML que representa a este ejercicio es el siguiente:
+
+
+![ejercicio_d](https://user-images.githubusercontent.com/91721552/159494030-9a2ac3fd-f070-4ce6-9dec-da501e2635ca.png)
 
