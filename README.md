@@ -22,7 +22,7 @@ Código:
         print(a().y((a,))) 
         print(A.y(aa, (a,z))) 
         print(aa.y((z,1,'z'))) 
-    ```
+```
 Explicación:
 
 (y(a)) = esta devolviendo el valor a, que es un elemento de la clase A porque z solo devuelve el self
