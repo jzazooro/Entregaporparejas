@@ -33,7 +33,7 @@ print(palindromo.palabrapalindroma(palabra))
 
 El UML de este ejercicio es el siguiente:
 
-![ejerciciobUML drawio](https://user-images.githubusercontent.com/91785177/159490422-b26e7972-134c-433f-b934-3ecbf183b2a4.png)
+
 
 El código de este ejercicio es el siguiente:
 
