@@ -33,12 +33,39 @@ print(palindromo.palabrapalindroma(palabra))
 
 El UML de este ejercicio es el siguiente:
 
-![ejerciciobUML drawio](https://user-images.githubusercontent.com/91785177/159490422-b26e7972-134c-433f-b934-3ecbf183b2a4.png)
+
 
 El código de este ejercicio es el siguiente:
 
 ```
+class palindromo:
+    global palabra
+    palabra=input("¿Que atributo o palabra desea añadir?: ")
+    global lista
+    lista=[]
 
+    def palabrapalindroma(palabra):
+
+        if palabra==palabra[: : -1]:
+            return True
+
+        elif palabra!=palabra[: : -1]:
+            return False
+
+    def test(palabra):
+        lista.append(palabra)
+
+        if palabra==palabra[: : -1]:
+            return True
+
+        elif palabra!=palabra[: : -1]:
+            return False
+
+        if len(lista)>1:
+            destruir=lista.pop()
+            destruir=destruir.upper()
+
+            print(destruir)
 ```
 
 
