@@ -23,4 +23,16 @@
         print(A.y(aa, (a,z))) 
         print(aa.y((z,1,'z'))) 
     ```
-    Explicación:
+Explicación:
+
+print(y(a)) = esta devolviendo el valor a, que es un elemento de la clase A
+
+print(aa is a()) = retorna falso, porque son dos clases de A pero podrían pedir distintos atributos
+
+print(z(())) = es un elemento de una clase, por lo que su longitud f sera 0
+
+print(a().y((a,))) = la longitud es 1
+
+print(A.y(aa, (a,z))) = la longitud es 2
+
+print(aa.y((z,1,'z'))) = la longitud es 3
