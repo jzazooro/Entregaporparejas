@@ -1,6 +1,3 @@
-from encodings import utf_8
-
-
 class Logger:
     def log(self,mensaje,x):
         f= open('cat log.txt','a+')
@@ -17,5 +14,5 @@ class Logger:
             f.close
 
 class Test:
-    def llamada(self,mensaje):
-        print()
+    def llamada(self,mensaje,x):
+        Logger.log(mensaje,x)
