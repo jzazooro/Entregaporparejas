@@ -28,7 +28,7 @@ palabra= input("Por favor escriba una palabra: ")
 print(palindromo.palabrapalindroma(palabra))
 ```
 
-### Ejercicio b. Plindromo metodo de instancia
+### Ejercicio b. Palindromo metodo de instancia
 
 
 El UML de este ejercicio es el siguiente:
