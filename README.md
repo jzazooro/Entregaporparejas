@@ -22,22 +22,17 @@ Código:
         print(a().y((a,))) 
         print(A.y(aa, (a,z))) 
         print(aa.y((z,1,'z'))) 
-<<<<<<< HEAD
     ```
 Explicación:
 
-print(y(a)) = esta devolviendo el valor a, que es un elemento de la clase A
+(y(a)) = esta devolviendo el valor a, que es un elemento de la clase A porque z solo devuelve el self
 
-print(aa is a()) = retorna falso, porque son dos clases de A pero podrían pedir distintos atributos
+(aa is a()) = retorna falso, porque son dos clases de A pero con atribtos diferentes
 
-print(z(())) = es un elemento de una clase, por lo que su longitud f sera 0
+(z(())) = es un elemento de una clase, por lo que su len() f sera 0
 
-print(a().y((a,))) = la longitud es 1
+(a().y((a,))) = la len() pasa a 1
 
-print(A.y(aa, (a,z))) = la longitud es 2
+(A.y(aa, (a,z))) = la len() pasa a 2
 
-print(aa.y((z,1,'z'))) = la longitud es 3
-=======
- ```
- Explición:
->>>>>>> fd153e7f1df62b3e81cbd51ccee51a4a4769ede5
+(aa.y((z,1,'z'))) = la len() pasa a 3
